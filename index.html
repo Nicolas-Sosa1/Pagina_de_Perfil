@@ -3,33 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tarjeta de Usuario</title>
+  <title>Página de Perfil</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div id="menu-card1">
+  <header>
 
-    <div id="container1">
-      <img  id="img_Nicolas" src="img/NicolasEstebanSosa.jpg" alt="Foto de perfil">
+  <nav id="navbar">
+    <div id="logo">
+      <h1>Perfil</h1>
     </div>
-    <div id="container2">
+    <ul id="nav_links">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Mi perfil</a></li>
+      <li><a href="#">Encontrar conexiones</a></li>
+    </ul>
+    <div id="close_sesion">
+      <button>Cerrar sesión</button>
+    </div>
+  </nav>
+
+  </header>
+
+  <main>
     
-      <h1>Nicolas Esteban Sosa</h1>
-      <h2>Buenos Aires, Argentina</h2>
-      <p>Desarrollador Backend C#/Java / Bases de Datos SQL/MySQL</p>
-      <p>
-         Me encanta trabajar con todo lo relacionado al Backend,
-         porque me gustan las Bases De Datos Relacionales como las no
-         Relacionales.
-      </p>
+    <div id="main_1">
 
-     <div>
-      <button id="btn_perfil">Editar perfil</button>
-     </div>
+      <div id="card_header">
+        <img  id="img_Nicolas" src="img/NicolasEstebanSosa.jpg" alt="Foto de perfil">
+      </div>
+
+      <div id="card_body">
+
+        <h1>Nicolas Esteban Sosa</h1>
+        <h2>Buenos Aires, Argentina</h2>
+        <p>Desarrollador Backend C#/Java / Bases de Datos SQL/MySQL</p>
+        <p>
+          Me encanta trabajar con todo lo relacionado al Backend,
+          porque me gustan las Bases De Datos Relacionales como las no
+          Relacionales. En mis tiempos libres me gusta jugar al futbol y al tenis.
+        </p>
+
+        <div id="btn_cerrar">
+        <button id="btn_perfil">Edit profile</button>
+        </div>
+      </div>
+
+      <div id="card_education">
+
+        <h2>Educación</h2> 
+        <p> Tecnicatura Universitaria en Programación 
+          <br> Mar 2024 - Dic 2025 <br> Desarrollo Web 
+          <br> Ago 2023 - Oct 2023 
+        </p> 
+      </div>
 
     </div>
-  </div>
+
+    
+    <div id="main_2">
+
+      <div id="card_sol_conexion">
+
+        <div id="title_sol_conexion">
+          <h2>Solicitudes de Conexión (2)</h2>
+
+        </div>
+
+        <div id="people_sol_conexion">
+
+          <div class="persona1">
+            <p>Kai Shoroder</p>
+            <img class="imgPersona1" src="./Img/Persona.png" alt="Persona">
+            <img class="imgYes" src="./Img/yes.png" alt="yes">
+            <img class="imgNo" src="./Img/no.png" alt="no">
+          </div>
+
+          <div class="persona1">
+            <p>Amira El-Masry</p>
+            <img class="imgPersona1" src="./Img/Persona.png" alt="Persona">
+            <img class="imgYes" src="./Img/yes.png" alt="yes">
+            <img class="imgNo" src="./Img/no.png" alt="no">
+
+          </div>
+
+        </div>
+        
+
+      </div>
+
+      <div id="card_tus_conexion">
+
+        <div id="title_tus_conexiones">
+          <h2>Tus Conexiones (500+)</h2>
+        </div>
+        
+        <div id="people_tus_conexiones">
+          
+          <div class="persona">
+            <img class="imgPersona" src="./Img/Persona.png" alt="Persona">
+            <p>Adrian Desplatz</p>
+          </div>
+          <div class="persona">
+            <img class="imgPersona" src="./Img/Persona.png" alt="Persona">
+            <p>Aerav Patel</p>
+          </div>
+          <div class="persona">
+            <img class="imgPersona" src="./Img/Persona.png" alt="Persona">
+            <p>Lina Kovacevic</p>
+          </div>
+          <div class="persona">
+            <img class="imgPersona" src="./Img/Persona.png" alt="Persona">
+            <p>Mateo Hernández</p>
+          </div>
+          <div class="persona">
+            <img class="imgPersona" src="./Img/Persona.png" alt="Persona">
+            <p>Yuna Kim</p>
+          </div>
+          <div class="persona">
+            <img class="imgPersona" src="./Img/Persona.png" alt="Persona">
+            <p>Liam O'Brien</p>
+          </div>
+        </div>
+
+        
+        
+
+      </div>
+
+    </div>
+
+  </main>
 
 </body>
 </html>
+
